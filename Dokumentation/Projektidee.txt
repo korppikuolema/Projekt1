@@ -1,6 +1,12 @@
-=== Projektidee korppikuolema, 2016-04-05 ===
+﻿=== Projektidee aktualisiert korppikuolema, 2016-04-19 ===
 
-Noch keine Idee vorhanden
+Mein Spiel ist nach dem Brettspiel "Herr der Ringe - Abenteuer in Mittelerde" aufgebaut.
+Der Spieler wählt am Anfang entweder einen "Helden" oder "Sauron", und je nachdem was er gewählt hat versucht er entweder den Einfluss Sauron's auf die Spielwelt "Mittelerde" zu schmälern oder eben zu erhöhen.
+Die "Helden" reisen durch Mittelerde von Ort zu Ort (insg. 63 Orte in verschiedenen Regionen) und erledigen dort Quests, die ihnen helfen das Spielziel zu erreichen.
+Sie können außerdem auf dem Weg von Ort zu Ort gegen Monster kämpfen um stärker zu werden, je nachdem welchen Spielcharackter sie gewählt haben, haben sie verschiedene Fertigkeiten / "Skills"
+"Sauron" kann durch Aktionen, Karten und "Schergen" Einfluss auf das Spiel nehmen, ob Ihm das gelingt ist abhängig von dem Spielverlauf der "Helden".
+Der Fortschritt wird in drei Zeitperioden eingeteilt und der Fortschritt der beiden Parteien wird darin markiert.
+Je nach Zeitperiode des Spieles können Plotkarten, Monster und die immer stärker werdenden "Schergen Sauron's" Einfluss auf das Spiel nehmen.
 
 === Feedback Alpers, 2016-04-14 ===
 
