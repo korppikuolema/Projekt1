@@ -8,7 +8,7 @@ Der Spieler wählt am Anfang durch eine Eingabe ob er "Held" oder "Sauron" spiel
 "Sauron" kann auf die Ereignisse der "Helden" durch aufrufen und bestätigen von Aktionen reagieren.
 Der Fortschritt wird durch eine sich selbstfortlaufende Zeitanzeige angezeigt und beeinflusst durch per Zeitperiode hinzukommende Ereignisse und Aktionen den Spielablauf.
 Falls Unklarheiten für die Spieler bestehen kann eine Hilfemaske aufgerufen werden.
-Nach Beenden der Runde werden die Spieler auf Websiten mit Merch des Herr-der-Ringe-Franchise hingewiesen und können durch bestätigen auf weiterführende Websiten gelangen.
+
 
 ===================================
 === Feedback Alpers, 2016-04-14 ===
