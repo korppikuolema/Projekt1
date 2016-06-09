@@ -3,7 +3,7 @@
 ==========================================================
 
 Mein Spiel ist nach dem Brettspiel "Herr der Ringe - Abenteuer in Mittelerde" aufgebaut.
-Der Spieler wählt am Anfang durch eine Eingabe ob er "Held" oder "Sauron" spielen möchte, je nachdem unterscheidet sich sein Spielverlauf.
+Der Spieler wählt am Anfang durch eine Eingabe ob er "Held" oder "Sauron" spielen möchte, je nachdem unterscheidet sich sein Spielverlauf. Nur ein Spieler kann "Sauron" wählen, alle Anderen wählen "Helden".
 "Helden" reisen von Ereignis zu Eireignis durch bewegen ihrer "Marker", je nachdem auf was für ein Ereignis sie treffen werden bestimmte Karten aufgerufen und in einer Kartenmaske angezeigt, die Ereignisse werden dann von dem Spieler bestätigt.
 "Sauron" kann auf die Ereignisse der "Helden" durch aufrufen und bestätigen von Aktionen reagieren.
 Der Fortschritt wird durch eine sich selbstfortlaufende Zeitanzeige angezeigt und beeinflusst durch per Zeitperiode hinzukommende Ereignisse und Aktionen den Spielablauf.
