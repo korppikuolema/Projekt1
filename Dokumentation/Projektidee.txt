@@ -3,12 +3,12 @@
 ==========================================================
 
 Mein Spiel ist nach dem Brettspiel "Herr der Ringe - Abenteuer in Mittelerde" aufgebaut.
-Der Spieler wählt am Anfang durch eine Eingabe ob er "Held" oder "Sauron" spielen möchte, je nachdem unterscheidet sich sein Spielverlauf. Nur ein Spieler kann "Sauron" wählen, alle Anderen wählen "Helden".
+Der Spieler wählt am Anfang durch eine Eingabe ob er "Held" oder "Sauron" spielen möchte, je nachdem unterscheidet sich sein Spielverlauf. 
+Nur ein Spieler kann "Sauron" wählen, alle Anderen wählen "Helden".
 "Helden" reisen von Ereignis zu Eireignis durch bewegen ihrer "Marker", je nachdem auf was für ein Ereignis sie treffen werden bestimmte Karten aufgerufen und in einer Kartenmaske angezeigt, die Ereignisse werden dann von dem Spieler bestätigt.
 "Sauron" kann auf die Ereignisse der "Helden" durch aufrufen und bestätigen von Aktionen reagieren.
 Der Fortschritt wird durch eine sich selbstfortlaufende Zeitanzeige angezeigt und beeinflusst durch per Zeitperiode hinzukommende Ereignisse und Aktionen den Spielablauf.
 Falls Unklarheiten für die Spieler bestehen kann eine Hilfemaske aufgerufen werden.
-
 
 ===================================
 === Feedback Alpers, 2016-04-14 ===
@@ -36,3 +36,13 @@ Wertung 2: Projektbeschreibung: gesamt: 4 / 10
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
 (Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
+
+===================================
+=== Feedback Alpers, 2016-06-17 ===
+===================================
+
+Leider haben Sie die zentrale Botschaft des letzten Feedbacks nicht umgesetzt: Das was Sie hier als Beschreibung notiert haben ist eher eine Zusammenfassung. Die eigentliche Beschreibung fehlt also.
+
+Daraus ergibt sich für den weiteren Projektablauf das Problem, dass Sie keine ausreichende Basis für die Entwicklung der strukturellen Elemente haben. Wenn das so bleibt, dann entwickeln Sie strukturelle Elemente, die nicht der Beschreibung entsprechen. Vor allem aber werden Sie dann früher oder später logische Fehler ins Projekt einbauen, ohne diese erkennen zu können.
+
+Deshalb aktuell keine Änderung der Wertung dieses Teils.
