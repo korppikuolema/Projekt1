@@ -1,7 +1,7 @@
 ﻿==========================================================
 === Projektidee aktualisiert korppikuolema, 2016-04-19 ===
 ==========================================================
-
+--Allg. Zusammenfassung--
 Mein Spiel ist nach dem Brettspiel "Herr der Ringe - Abenteuer in Mittelerde" aufgebaut.
 Der Spieler wählt am Anfang durch eine Eingabe ob er "Held" oder "Sauron" spielen möchte, je nachdem unterscheidet sich sein Spielverlauf. 
 Nur ein Spieler kann "Sauron" wählen, alle Anderen wählen "Helden".
@@ -10,7 +10,6 @@ Nur ein Spieler kann "Sauron" wählen, alle Anderen wählen "Helden".
 Der Fortschritt wird durch eine sich selbstfortlaufende Zeitanzeige angezeigt und beeinflusst durch per Zeitperiode hinzukommende Ereignisse und Aktionen den Spielablauf.
 Falls Unklarheiten für die Spieler bestehen kann eine Hilfemaske aufgerufen werden.
 
-Das Spiel ist nach dem Brettspiel "Herr der Ringe - Abenteuer in Mittelerde" aufgebaut.
 --1.Beginn des Spiels--
 Der User entscheidet sich in einer Auswahlmaske zunächst für einen Charakter, dieser wird ihm durch Bild und Text erklärt. In dieser Maske kann der User auch seinen Usernamen festlegen. Er bestätigt seine Auswahl und Usernamen und gelangt damit in die eigentliche Spielmaske.
 
@@ -24,8 +23,8 @@ Es können besondere Charaktere durch Karten aufgerufen werden, diese werden dan
 
 --2.2. Spielverlauf Sauron--
 Es kann nur ein Spieler diesen Charakter auswählen.
-Reagiert durch aufrufen von Plotkarten (2.3) oder Aktionen, diese werden mit Laufe des Spielverlaufs dem Spieler angezeigt und können ebenfalls in der Kartenmaske (2.3) ausgewählt und bestätigt werden. 
-Wenn eine Aktion erfolgreich war färbt sich der Marker in der Farbe "Saurons".
+Reagiert durch aufrufen von Plotkarten (2.3) oder Aktionen, diese werden mit Laufe des Spielverlaufs dem Spieler angezeigt und können ebenfalls in der Kartenmaske (2.3) ausgewählt und bestätigt werden. Kann ähnlich wie die besondere Charaktere der "Helden", "Schergen" aufrufen, die mit Fortschritt des Spieles hinzukommen.
+Wenn eine Aktion erfolgreich war färbt sich der Marker in der Farbe "Saurons". Außerdem kann der Spieler seinen Fortschritt in einer Schaltfläche mit Markern kontrollieren, die je nachdem wie gut er ist erscheinen.
 
 --2.3. Kartenmaske--
 Diese tritt in den Vordergrund, wenn eine Karte oder Aktion aufgerufen wird. Der User bestätigt das Umdrehen der Karte und wird dann über den Inhalt der Karte informiert. Er kann die Karte bestätigen oder ablehnen und kehrt dann in die Spieloberfläche zurück.
