@@ -10,6 +10,34 @@ Nur ein Spieler kann "Sauron" wählen, alle Anderen wählen "Helden".
 Der Fortschritt wird durch eine sich selbstfortlaufende Zeitanzeige angezeigt und beeinflusst durch per Zeitperiode hinzukommende Ereignisse und Aktionen den Spielablauf.
 Falls Unklarheiten für die Spieler bestehen kann eine Hilfemaske aufgerufen werden.
 
+Das Spiel ist nach dem Brettspiel "Herr der Ringe - Abenteuer in Mittelerde" aufgebaut.
+--1.Beginn des Spiels--
+Der User entscheidet sich in einer Auswahlmaske zunächst für einen Charakter, dieser wird ihm durch Bild und Text erklärt. In dieser Maske kann der User auch seinen Usernamen festlegen. Er bestätigt seine Auswahl und Usernamen und gelangt damit in die eigentliche Spielmaske.
+
+--2.Spielverlauf & Zeitanzeige--
+Der Spielverlauft wird sich unterscheiden, je nachdem ob der Spieler "Sauron" oder "Held" gewählt hat. Eine selbstfortlaufende Zeitanzeige, die in drei Zeitperioden eingeteilt ist, signalisiert dem User 1. wieweit er im Spiel fortgeschritten ist 2. beeinflusst sie den Spielverlauf durch per Zeitperiode hinzukommende Ereignisse und Aktionen, die die Spieler ausführen können.
+
+--2.1. Spielverlauf Held--
+Helden bewegen ihre Spielfigur, die durch Anzeige ihres Usernamens festgelegt wird, zu Markern, die Orte darstellen. Die "Helden" können diese für sich durch "Karten" gewinnen. 
+Dazu werden Karten aufgerufen und die Kartenmaske (2.3) erscheint. Wenn der User erfolgreich war, färbt sich der Marker in der Farbe des "Helden".
+Es können besondere Charaktere durch Karten aufgerufen werden, diese werden dann auf den Marker gezogen und verfärben ihn.
+
+--2.2. Spielverlauf Sauron--
+Es kann nur ein Spieler diesen Charakter auswählen.
+Reagiert durch aufrufen von Plotkarten (2.3) oder Aktionen, diese werden mit Laufe des Spielverlaufs dem Spieler angezeigt und können ebenfalls in der Kartenmaske (2.3) ausgewählt und bestätigt werden. 
+Wenn eine Aktion erfolgreich war färbt sich der Marker in der Farbe "Saurons".
+
+--2.3. Kartenmaske--
+Diese tritt in den Vordergrund, wenn eine Karte oder Aktion aufgerufen wird. Der User bestätigt das Umdrehen der Karte und wird dann über den Inhalt der Karte informiert. Er kann die Karte bestätigen oder ablehnen und kehrt dann in die Spieloberfläche zurück.
+
+--2.4. Hilfe--
+Da das Spiel recht komplex ist, kann der Spieler eine Hilfemaske aufrufen. Es kann nach bestimmten Begriffen gesucht werden oder man kann durch ein Inhaltsverzeichnis navigieren. Durch eine Schaltfläche kann der User zurück zur allgemeinen Spieloberfläche gelangen.
+
+--3. Ende des Spiels--
+Je nachdem welcher Spieler nach Ablauf der Zeit am meisten Marker "eingefärbt" hat, hat er gewonnen. Die "Helden" gewinnen im 
+Kollektiv. Der User kann eine neue Runde bestätigen oder ablehnen.
+
+
 ===================================
 === Feedback Alpers, 2016-04-14 ===
 ===================================
