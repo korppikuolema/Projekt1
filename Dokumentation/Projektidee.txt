@@ -11,23 +11,36 @@ Der Fortschritt wird durch eine sich selbstfortlaufende Zeitanzeige angezeigt un
 Falls Unklarheiten für die Spieler bestehen kann eine Hilfemaske aufgerufen werden.
 
 --1.Beginn des Spiels--
-Der User entscheidet sich in einer Auswahlmaske zunächst für einen Charakter, dieser wird ihm durch Bild und Text erklärt. In dieser Maske kann der User auch seinen Usernamen festlegen. Er bestätigt seine Auswahl und Usernamen und gelangt damit in die eigentliche Spielmaske.
+Der User entscheidet sich in einer Auswahlmaske zunächst für einen Charakter, dieser wird ihm durch Bild und Text erklärt. 
+In dieser Maske kann der User auch seinen Usernamen festlegen. 
+Er bestätigt seine Auswahl und Usernamen und gelangt damit in die eigentliche Spielmaske.
 
 --2.Spielverlauf & Zeitanzeige--
-Der Spielverlauft wird sich unterscheiden, je nachdem ob der Spieler "Sauron" oder "Held" gewählt hat. Eine selbstfortlaufende Zeitanzeige, die in drei Zeitperioden eingeteilt ist, signalisiert dem User 1. wieweit er im Spiel fortgeschritten ist 2. beeinflusst sie den Spielverlauf durch per Zeitperiode hinzukommende Ereignisse und Aktionen, die die Spieler ausführen können.
+Der Spielverlauft wird sich unterscheiden, je nachdem ob der Spieler "Sauron" oder "Held" gewählt hat. 
+Eine selbstfortlaufende Zeitanzeige, die in drei Zeitperioden eingeteilt ist, signalisiert dem User 
+1. wieweit er im Spiel fortgeschritten ist 
+2. beeinflusst sie den Spielverlauf durch per Zeitperiode hinzukommende Ereignisse und Aktionen, die die Spieler ausführen können.
 
 --2.1. Spielverlauf Held--
-Helden bewegen ihre Spielfigur, die durch Anzeige ihres Usernamens festgelegt wird, zu Markern, die Orte darstellen. Die "Helden" können diese für sich durch "Karten" gewinnen. 
-Dazu werden Karten aufgerufen und die Kartenmaske (2.3) erscheint. Wenn der User erfolgreich war, färbt sich der Marker in der Farbe des "Helden".
+Helden bewegen ihre Spielfigur, die durch Anzeige ihres Usernamens festgelegt wird, zu Markern, die Orte darstellen. 
+Die "Helden" können diese für sich durch "Karten" gewinnen. 
+Dazu werden Karten aufgerufen und die Kartenmaske (2.3) erscheint. 
+Wenn der User erfolgreich war, färbt sich der Marker in der Farbe des "Helden".
 Es können besondere Charaktere durch Karten aufgerufen werden, diese werden dann auf den Marker gezogen und verfärben ihn.
 
 --2.2. Spielverlauf Sauron--
 Es kann nur ein Spieler diesen Charakter auswählen.
-Reagiert durch aufrufen von Plotkarten (2.3) oder Aktionen, diese werden mit Laufe des Spielverlaufs dem Spieler angezeigt und können ebenfalls in der Kartenmaske (2.3) ausgewählt und bestätigt werden. Kann ähnlich wie die besondere Charaktere der "Helden", "Schergen" aufrufen, die mit Fortschritt des Spieles hinzukommen.
-Wenn eine Aktion erfolgreich war färbt sich der Marker in der Farbe "Saurons". Außerdem kann der Spieler seinen Fortschritt in einer Schaltfläche mit Markern kontrollieren, die je nachdem wie gut er ist erscheinen.
+Reagiert durch aufrufen von Plotkarten (2.3) 
+oder Aktionen, diese werden mit Laufe des Spielverlaufs dem Spieler angezeigt und können ebenfalls in der Kartenmaske (2.3) 
+ausgewählt und bestätigt werden. 
+Kann ähnlich wie die besondere Charaktere der "Helden", "Schergen" aufrufen, die mit Fortschritt des Spieles hinzukommen.
+Wenn eine Aktion erfolgreich war färbt sich der Marker in der Farbe "Saurons". 
+Außerdem kann der Spieler seinen Fortschritt in einer Schaltfläche mit Markern kontrollieren, die je nachdem wie gut er ist erscheinen.
 
 --2.3. Kartenmaske--
-Diese tritt in den Vordergrund, wenn eine Karte oder Aktion aufgerufen wird. Der User bestätigt das Umdrehen der Karte und wird dann über den Inhalt der Karte informiert. Er kann die Karte bestätigen oder ablehnen und kehrt dann in die Spieloberfläche zurück.
+Diese tritt in den Vordergrund, wenn eine Karte oder Aktion aufgerufen wird. 
+Der User bestätigt das Umdrehen der Karte und wird dann über den Inhalt der Karte informiert. 
+Er kann die Karte bestätigen oder ablehnen und kehrt dann in die Spieloberfläche zurück.
 
 --2.4. Hilfe--
 Da das Spiel recht komplex ist, kann der Spieler eine Hilfemaske aufrufen. Es kann nach bestimmten Begriffen gesucht werden oder man kann durch ein Inhaltsverzeichnis navigieren. Durch eine Schaltfläche kann der User zurück zur allgemeinen Spieloberfläche gelangen.
@@ -73,3 +86,23 @@ Leider haben Sie die zentrale Botschaft des letzten Feedbacks nicht umgesetzt: D
 Daraus ergibt sich für den weiteren Projektablauf das Problem, dass Sie keine ausreichende Basis für die Entwicklung der strukturellen Elemente haben. Wenn das so bleibt, dann entwickeln Sie strukturelle Elemente, die nicht der Beschreibung entsprechen. Vor allem aber werden Sie dann früher oder später logische Fehler ins Projekt einbauen, ohne diese erkennen zu können.
 
 Deshalb aktuell keine Änderung der Wertung dieses Teils.
+
+===================================
+=== Feedback Alpers, 2016-07-21 ===
+===================================
+
+Kleiner Tipp, der später unnötige Mehrarbeit ersparen kann: Wenn Sie sich auf andere Aussagen beziehen, so wie hier über "Diese" (Erster Punkte unter --2.3. Kartenmaske--), dann notieren Sie am besten in Stichpunkte, worauf Sie sich beziehen. Im schlimmsten Fall (der praktisch immer eintritt...) ändern Sie später die Reihenfolge und Inhalte der Beschreibung und lesen dann einen Satz wie "Diese treten in den Vordergrund, ...", aber das, worauf sich der Satz bezieht ist entweder gestrichen oder steht inzwischen an ganz anderer Stelle. Das mag zunächst irritieren (in diesem Fall bezieht sich das "Diese" auf die Kartenübersicht), ist aber nützlich, weil Sie so jeden einzelnen Punkt unabhängig vom Kontext programmieren können.
+
+Was Sie bei einem Projekt noch aufnehmen müssten, in diesem Projekt aber aus Zeitgründen gerne lassen können sind Beschreibungen der Karten. Außerdem ist momentan nicht erkennbar, wie ein Marker eingefärbt werden kann. Aber auch das können Sie vorerst hinten an stellen und sich auf den Rest des Projekts konzentrieren.
+
+Dagegen fehlt momentan die Integration der Webbasierung. Aufgrund der unterschiedlichen Anzahl Spieler brauchen Sie die momentan allerdings nicht explizit aufzuführen; so lange Sie die Beschreibung nicht darauf fixieren, dass die Spieler an einem Rechner sitzen müssen genügt das vorerst.
+
+Was Sie aber noch einarbeiten müssen ist die Interaktion zwischen Mensch und Spiel (bzw. Computer). Dazu hatte ich ja verschiedentlich schon etwas geschrieben. Vielleicht hilft Ihnen weiter, wenn ich Ihnen sage, dass ich damit zum Teil etwas meine, das als adaptiv bezeichnet wird.
+
+Wertung 2: Projektbeschreibung: gesamt: 5 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
