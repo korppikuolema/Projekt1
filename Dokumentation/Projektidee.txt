@@ -4,6 +4,7 @@
 --Allg. Zusammenfassung--
 Mein Spiel ist nach dem Brettspiel "Herr der Ringe - Abenteuer in Mittelerde" aufgebaut.
 Das Spiel ist webbasiert dh. Jeder Spieler agiert von seinem eigenen internetfähigem Gerät aus.
+Die Spieler werden zufällig zusammengeführt.
 Der Spieler wählt am Anfang durch eine Eingabe ob er "Held" oder "Sauron" spielen möchte, je nachdem unterscheidet sich sein Spielverlauf. 
 Nur ein Spieler kann "Sauron" wählen, alle Anderen wählen "Helden".
 "Helden" reisen von Ereignis zu Eireignis durch bewegen ihrer "Marker", je nachdem auf was für ein Ereignis sie treffen werden bestimmte Karten aufgerufen und in einer Kartenmaske angezeigt, die Ereignisse werden dann von dem Spieler bestätigt.
